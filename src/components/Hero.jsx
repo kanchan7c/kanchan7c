@@ -10,7 +10,8 @@ const Hero = () => {
           <div className="col-12">
             <h3 className="greeting">Hi I'm</h3>
             <Fade top cascade>
-              <h1 className="hero__text">Kanchan Chaudhary</h1>
+              <h1 ClassName="hero__text">Kanchan</h1>
+              <h1 ClassName="hero__text">Chaudhary</h1>
             </Fade>
             <Fade right cascade>
               <h2>
