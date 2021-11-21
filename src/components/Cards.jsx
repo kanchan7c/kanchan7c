@@ -13,9 +13,13 @@ const Cards = ({ src, alt, title, description, created, github, online }) => {
             <p className="card-text">{description}</p>
             <p className="card-text">
               <small className="text-muted d-block">Created - {created}</small>
-              <a href={online} class="btn d-lg-inline-block" target="_blank">
-                View Online
-              </a>
+              {online ? (
+                <a href={online} class="btn d-lg-inline-block" target="_blank">
+                  View Online
+                </a>
+              ) : (
+                ""
+              )}
               <a href={github} class="btn d-lg-inline-block" target="_blank">
                 View Code
               </a>

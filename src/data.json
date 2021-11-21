@@ -1,136 +1,134 @@
-{
-  "details": [
-    {
-      "src": "./images/slack.png",
-      "alt": "Slack",
-      "title": "Slack Clone",
-      "description": "This website app is a clone of the famous chat software Slack. The app uses Google authentication. It will show you the app homepage only when you sign in using your Google account. You can chat into existing channels or add new channel. The information comes from Firebase database. Firebase hosting and deployment has been used in this project.",
-      "created": "Nov 17, 2021",
-      "tech": "React JS, MUI, Firebase",
-      "role": "Frontend & Backend",
-      "online": "https://slack-clone-52f92.web.app/",
-      "github": "https://github.com/kanchan7c/Slack-clone"
-    },
-    {
-      "src": "./images/tesla.png",
-      "alt": "Tesla",
-      "title": "Tesla Homepage",
-      "description": "This website app is a clone of Tesla website. This is fully responsive website that uses dynamic contents as well.",
-      "created": "Nov 15, 2021",
-      "tech": "React JS, MUI, React libraries",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/tesla-homepage-clone-updated",
-      "online": "https://jolly-torvalds-7054d4.netlify.app"
-    },
-    {
-      "src": "./images/netflix.png",
-      "alt": "Netflix",
-      "title": "Netflix Homepage",
-      "description": "This website app is a clone of Netflix website. This is fully responsive website that uses the movie db API for pulling the movies and tv shows displayed on the homepage.",
-      "created": "Nov 16, 2021",
-      "tech": "React JS, MUI, The Movie DB API, React libraries",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/netflix-homepage-clone",
-      "online": "https://hardcore-ritchie-ef4313.netlify.app"
-    },
-    {
-      "src": "./images/notes.png",
-      "alt": "notes",
-      "title": "Notes App",
-      "description": "My Notes app is build using vanilla JavaScript. You can add new notes and delete the added ones from your screen. This app also uses your local device storage to store the notes, therefore if you refresh your app, you will still see the notes you have made.",
-      "created": "Nov 10, 2021",
-      "tech": "HTML, CSS & JavaScript",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/NotesApp",
-      "online": "https://dazzling-lamarr-952495.netlify.app"
-    },
-    {
-      "src": "./images/coding-services.png",
-      "alt": "Coding Services",
-      "title": "Coding Services",
-      "description": "This website app is created when I was learning how to use CSS libraries and frameworks in React JS. This is a fully responsive website will all functional links. The design is inspired by one of the website themes. The website has been coded by hand, no themes used.",
-      "created": "Oct 15, 2021",
-      "tech": "React JS, HTML, CSS & Bootstrap 5",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/CodingServices",
-      "online": "https://coding-services.kanchan.shekhar.net/"
-    },
-    {
-      "src": "./images/fifa19.png",
-      "alt": "FIFA 19",
-      "title": "FIFA 19 Players",
-      "description": "This website app was created as a project given for internship assessment. It uses local data in JSON format and output the result when players are searched. It also displays the player detailed profile with radar chart of their performance when a player search result is clicked.",
-      "created": "Oct 21, 2021",
-      "tech": "React JS and CSS",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/check-fifa-players",
-      "online": "https://elegant-volhard-2770b9.netlify.app"
-    },
-    {
-      "src": "./images/happiepetals.png",
-      "alt": "Happie Petals",
-      "title": "Happie Petals",
-      "description": " I have created this website during my learning phase of Django. It uses Bootstrap for HTML CSS and JS, and uses Django for backend operations. The forms are submit-able and data gets stored in database which can be accessed through admin portal.",
-      "created": "Nov 02, 2021",
-      "tech": "HTML, CSS, Python, Django & Bootstrap",
-      "role": "Frontend & Backend",
-      "github": "https://github.com/kanchan7c/django-website-Happie-Petals",
-      "online": ""
-    },
-    {
-      "src": "./images/beats.png",
-      "alt": "Beats",
-      "title": "Beats Restaurant",
-      "description": "This is a restaurant website landing page which has fully responsive navbar as well as homepage.",
-      "created": "Oct 11, 2021",
-      "tech": "HTML, CSS & JavaScript",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/Web-Restaurant",
-      "online": "https://boring-booth-413c8f.netlify.app"
-    },
-    {
-      "src": "./images/education.png",
-      "alt": "Education Hub",
-      "title": "Education Homepage",
-      "description": "This is a landing page of online education website.",
-      "created": "Oct 11, 2021",
-      "tech": "HTML, CSS and JavaScript",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/Education-Hub",
-      "online": "https://objective-boyd-1f775e.netlify.app/"
-    },
-    {
-      "src": "./images/webgenie.png",
-      "alt": "Web Genie",
-      "title": "Web Genie Landing Page",
-      "description": "This website is created as a sample landing page. It can be converted into any service website homepage.",
-      "created": "Oct 9, 2021",
-      "tech": "HTML, CSS & Bootstrap 5",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/Web-Genie",
-      "online": "https://zen-goodall-390880.netlify.app/"
-    },
-    {
-      "src": "./images/real-estate.png",
-      "alt": "Real Estate",
-      "title": "Real Estate Website Sample",
-      "description": "This is <strong>my first website</strong> that I have coded since I started learning web development.This is a Real Estate website sample inspired by one of the templates. As I was learning web development since 10 days back then, this website doesn't use media queries, therefore, For the BEST view, please check the website on a desktop browser as I haven't optimized it to be responsive for small screens yet.",
-      "created": "Sept 24, 2021",
-      "tech": "HTML and CSS",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/HTML-CSS-only-website",
-      "online": "https://elated-kilby-69b83e.netlify.app"
-    },
-    {
-      "src": "./images/portfolio.png",
-      "alt": "Personal Portfolio",
-      "title": "Personal Portfolio",
-      "description": "This is my personal portfolio that I have created without using any CSS or JavaScript libraries.",
-      "created": "Nov 19, 2021",
-      "tech": "HTML, CSS & JavaScript",
-      "role": "Frontend",
-      "github": "https://github.com/kanchan7c/personal-portfolio",
-      "online": "https://thirsty-goldstine-71fb9c.netlify.app/"
-    }
-  ]
-}
+[
+  {
+    "src": "./images/slack.png",
+    "alt": "Slack",
+    "title": "Slack Clone",
+    "description": "This website app is a clone of the famous chat software Slack. The app uses Google authentication. It will show you the app homepage only when you sign in using your Google account. You can chat into existing channels or add new channel. The information comes from Firebase database. Firebase hosting and deployment has been used in this project.",
+    "created": "Nov 17, 2021",
+    "tech": "React JS, MUI, Firebase",
+    "role": "Frontend & Backend",
+    "online": "https://slack-clone-52f92.web.app/",
+    "github": "https://github.com/kanchan7c/Slack-clone"
+  },
+  {
+    "src": "./images/tesla.png",
+    "alt": "Tesla",
+    "title": "Tesla Homepage",
+    "description": "This website app is a clone of Tesla website. This is fully responsive website that uses dynamic contents as well.",
+    "created": "Nov 15, 2021",
+    "tech": "React JS, MUI, React libraries",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/tesla-homepage-clone-updated",
+    "online": "https://jolly-torvalds-7054d4.netlify.app"
+  },
+  {
+    "src": "./images/netflix.png",
+    "alt": "Netflix",
+    "title": "Netflix Homepage",
+    "description": "This website app is a clone of Netflix website. This is fully responsive website that uses the movie db API for pulling the movies and tv shows displayed on the homepage.",
+    "created": "Nov 16, 2021",
+    "tech": "React JS, MUI, The Movie DB API, React libraries",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/netflix-homepage-clone",
+    "online": "https://hardcore-ritchie-ef4313.netlify.app"
+  },
+  {
+    "src": "./images/notes.png",
+    "alt": "notes",
+    "title": "Notes App",
+    "description": "My Notes app is build using vanilla JavaScript. You can add new notes and delete the added ones from your screen. This app also uses your local device storage to store the notes, therefore if you refresh your app, you will still see the notes you have made.",
+    "created": "Nov 10, 2021",
+    "tech": "HTML, CSS & JavaScript",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/NotesApp",
+    "online": "https://dazzling-lamarr-952495.netlify.app"
+  },
+  {
+    "src": "./images/coding-services.png",
+    "alt": "Coding Services",
+    "title": "Coding Services",
+    "description": "This website app is created when I was learning how to use CSS libraries and frameworks in React JS. This is a fully responsive website will all functional links. The design is inspired by one of the website themes. The website has been coded by hand, no themes used.",
+    "created": "Oct 15, 2021",
+    "tech": "React JS, HTML, CSS & Bootstrap 5",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/CodingServices",
+    "online": "https://coding-services.kanchan.shekhar.net/"
+  },
+  {
+    "src": "./images/fifa19.png",
+    "alt": "FIFA 19",
+    "title": "FIFA 19 Players",
+    "description": "This website app was created as a project given for internship assessment. It uses local data in JSON format and output the result when players are searched. It also displays the player detailed profile with radar chart of their performance when a player search result is clicked.",
+    "created": "Oct 21, 2021",
+    "tech": "React JS and CSS",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/check-fifa-players",
+    "online": "https://elegant-volhard-2770b9.netlify.app"
+  },
+  {
+    "src": "./images/happiepetals.png",
+    "alt": "Happie Petals",
+    "title": "Happie Petals",
+    "description": " I have created this website during my learning phase of Django. It uses Bootstrap for HTML CSS and JS, and uses Django for backend operations. The forms are submit-able and data gets stored in database which can be accessed through admin portal.",
+    "created": "Nov 02, 2021",
+    "tech": "HTML, CSS, Python, Django & Bootstrap",
+    "role": "Frontend & Backend",
+    "github": "https://github.com/kanchan7c/django-website-Happie-Petals",
+    "online": ""
+  },
+  {
+    "src": "./images/beats.png",
+    "alt": "Beats",
+    "title": "Beats Restaurant",
+    "description": "This is a restaurant website landing page which has fully responsive navbar as well as homepage.",
+    "created": "Oct 11, 2021",
+    "tech": "HTML, CSS & JavaScript",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/Web-Restaurant",
+    "online": "https://boring-booth-413c8f.netlify.app"
+  },
+  {
+    "src": "./images/education.png",
+    "alt": "Education Hub",
+    "title": "Education Homepage",
+    "description": "This is a landing page of online education website.",
+    "created": "Oct 11, 2021",
+    "tech": "HTML, CSS and JavaScript",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/Education-Hub",
+    "online": "https://objective-boyd-1f775e.netlify.app/"
+  },
+  {
+    "src": "./images/webgenie.png",
+    "alt": "Web Genie",
+    "title": "Web Genie Landing Page",
+    "description": "This website is created as a sample landing page. It can be converted into any service website homepage.",
+    "created": "Oct 9, 2021",
+    "tech": "HTML, CSS & Bootstrap 5",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/Web-Genie",
+    "online": "https://zen-goodall-390880.netlify.app/"
+  },
+  {
+    "src": "./images/real-estate.png",
+    "alt": "Real Estate",
+    "title": "Real Estate Website Sample",
+    "description": "This is <strong>my first website</strong> that I have coded since I started learning web development.This is a Real Estate website sample inspired by one of the templates. As I was learning web development since 10 days back then, this website doesn't use media queries, therefore, For the BEST view, please check the website on a desktop browser as I haven't optimized it to be responsive for small screens yet.",
+    "created": "Sept 24, 2021",
+    "tech": "HTML and CSS",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/HTML-CSS-only-website",
+    "online": "https://elated-kilby-69b83e.netlify.app"
+  },
+  {
+    "src": "./images/portfolio.png",
+    "alt": "Personal Portfolio",
+    "title": "Personal Portfolio",
+    "description": "This is my personal portfolio that I have created without using any CSS or JavaScript libraries.",
+    "created": "Nov 19, 2021",
+    "tech": "HTML, CSS & JavaScript",
+    "role": "Frontend",
+    "github": "https://github.com/kanchan7c/personal-portfolio",
+    "online": "https://thirsty-goldstine-71fb9c.netlify.app/"
+  }
+]

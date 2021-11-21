@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="projects">
       <h1 className="text-center mt-5">Portfolio</h1>
       {data &&
-        data.details.map((item) => (
+        data.map((item) => (
           <Cards
             src={item.src}
             alt={item.alt}
@@ -16,7 +16,7 @@ const Projects = () => {
             description={item.description}
             created={item.created}
             github={item.github}
-            online={item.online}
+            online={item?.online}
           />
         ))}
     </div>
