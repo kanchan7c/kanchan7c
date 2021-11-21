@@ -42,7 +42,7 @@ const About = () => {
             </p>
             <div className="about__buttons">
               <a
-                href="https://drive.google.com/file/d/1tpuMExOJWwzq2W8QfeR4iptkIxUFmN7m/view?usp=sharing"
+                href="https://docs.google.com/document/d/10Z0Y59fgKVJlGQwTSkbiqw6Gezem4IileHQIYjDzSVM/edit?usp=sharing"
                 className="btn"
                 download
                 target="_blank"
