@@ -1,0 +1,8 @@
+.projects {
+  margin: 8rem auto 4rem auto;
+  width: 100%;
+  height: fit-content;
+  overflow-x: hidden;
+  background-color: rgba(216, 191, 216, 0.15);
+  border-radius: 20px;
+}

@@ -1,0 +1,23 @@
+.tech-stack {
+  width: 100%;
+  height: fit-content;
+  overflow-x: hidden;
+  background-color: rgba(216, 191, 216, 0.15);
+  border-radius: 20px;
+  margin-bottom: 5rem;
+}
+
+.tech-stack h1 {
+  margin-top: 1rem;
+}
+
+.css-7rtvwf-MuiImageListItem-root .MuiImageListItem-img {
+  object-fit: cover;
+  width: 90% !important;
+  height: 90%;
+  margin: 2rem 1rem;
+}
+
+.css-bsx4uo {
+  height: fit-content !important;
+}

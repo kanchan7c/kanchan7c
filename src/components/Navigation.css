@@ -1,0 +1,13 @@
+.navbar-brand {
+  font-size: var(--font-large) !important;
+  font-weight: 700;
+}
+
+.navbar-brand span {
+  color: var(--secondary-color) !important;
+}
+
+.nav-link {
+  color: var(--secondary-color) !important;
+  font-size: var(--font-medium);
+}

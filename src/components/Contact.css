@@ -1,0 +1,64 @@
+.contact {
+  width: 100%;
+  height: fit-content;
+  overflow-x: hidden;
+  background-color: rgba(216, 191, 216, 0.15);
+  border-radius: 20px;
+  margin-bottom: 3rem;
+}
+
+.contact h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.contact a {
+  width: 50%;
+  display: inline-block;
+  margin: 2rem auto;
+}
+
+.image {
+  width: 50%;
+}
+
+.image img {
+  width: 100%;
+  object-fit: contain;
+}
+.contact-content {
+  width: 40%;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-content h3 {
+  font-size: var(--font-medium);
+}
+
+.social {
+  display: inline !important;
+}
+
+.social .MuiSvgIcon-root {
+  font-size: var(--font-xl) !important;
+  color: var(--secondary-color);
+  margin: 2rem 1rem 1rem 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .contact-content {
+    width: 90%;
+  }
+  .contact h1 {
+    width: 90%;
+    margin: auto;
+  }
+}
