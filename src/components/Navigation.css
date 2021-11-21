@@ -6,8 +6,3 @@
 .navbar-brand span {
   color: var(--secondary-color) !important;
 }
-
-.nav-link {
-  color: var(--secondary-color) !important;
-  font-size: var(--font-medium);
-}

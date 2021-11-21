@@ -14,30 +14,17 @@ const Hero = () => {
             </Fade>
             <Fade right cascade>
               <h2>
-                I'm a <span className="fs-1"> Frontend Developer</span>
+                I'm a{" "}
+                <span className="fs-1">
+                  {" "}
+                  <span>&lt;</span> Frontend Developer <span> &gt;</span>
+                </span>
               </h2>
             </Fade>
-            <a href="./About" className="btn fs-5 ">
-              More About Me
-            </a>
           </div>
         </div>
       </div>
     </div>
-    // <div className="container">
-    //   <div className="hero__container">
-    //     <h3>Hi I'm</h3>
-    //     <Fade top>
-    //       <h1 className="hero__text">Kanchan Chaudhary</h1>
-    //     </Fade>
-    //     <Fade right>
-    //       <h2>
-    //         I'm a <span> Frontend Developer</span>
-    //       </h2>
-    //     </Fade>
-    //     <a href="./About">More About Me</a>
-    //   </div>
-    // </div>
   );
 };
 

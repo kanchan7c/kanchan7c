@@ -7,8 +7,13 @@ import TechStack from './components/TechStack';
 import Contact from './components/Contact';
 
 function App() {
+
+  const context = (e) => {
+    e.preventDefault();
+  }
+
   return (
-    <div className="container-fluid">
+    <div onContextMenu={context} className="container-fluid">
       <Navigation />
       <Hero />
       <About />

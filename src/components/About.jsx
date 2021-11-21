@@ -41,11 +41,13 @@ const About = () => {
               experience.
             </p>
             <div className="about__buttons">
-              <a href="./Web_Developer_Resume.pdf" className="btn" download>
+              <a
+                href="https://drive.google.com/file/d/1tpuMExOJWwzq2W8QfeR4iptkIxUFmN7m/view?usp=sharing"
+                className="btn"
+                download
+                target="_blank"
+              >
                 Download CV
-              </a>
-              <a href="./Contact" className="btn">
-                Contact Me
               </a>
             </div>
           </div>
