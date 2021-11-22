@@ -17,12 +17,13 @@ function App() {
     <div onContextMenu={context} className="container-fluid">
       <BrowserRouter>
         <Navigation />
+        <Hero />
+        <About />
+        <Projects />
+        <TechStack />
+        <Contact />
         <Switch>
-          <Route path="/" element={Hero} exact> <Hero /> </Route>
-          <Route path="/about" element={About} exact> <About /> </Route>
-          <Route path="/projects" element={Projects} exact><Projects /> </Route>
-          <Route path="/TechStack" element={TechStack} exact><TechStack /> </Route>
-          <Route path="/contact" element={Contact} exact> <Contact /> </Route>
+          <Route path="/" element={Hero} exact />
         </Switch>
       </BrowserRouter>
     </div>
