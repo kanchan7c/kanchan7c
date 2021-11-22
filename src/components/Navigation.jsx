@@ -9,6 +9,20 @@ const Navigation = () => {
         <NavLink className="navbar-brand" key="logo" to="/">
           iPort<span>folio</span>
         </NavLink>
+        <div className="nav-menu">
+          <NavLink className="nav-item" to="/About">
+            About
+          </NavLink>
+          <NavLink className="nav-item" to="/Projects">
+            Projects
+          </NavLink>
+          <NavLink className="nav-item" to="/TechStack">
+            Skills
+          </NavLink>
+          <NavLink className="nav-item" to="/Contact">
+            Contact
+          </NavLink>
+        </div>
         <button
           className="navbar-toggler"
           type="button"

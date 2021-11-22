@@ -7,6 +7,10 @@
   color: var(--secondary-color) !important;
 }
 
+.navbar-toggler {
+  display: none !important;
+}
+
 .nav-link {
   color: var(--secondary-color) !important;
   font-size: var(--font-medium);
@@ -16,7 +20,7 @@
   display: inline-block;
   margin-bottom: 0.5rem;
   padding: 10px !important;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   width: 10rem;
   background: transparent !important;
 }
@@ -24,6 +28,29 @@
 .nav-link:hover {
   color: #111 !important;
   border-left: 2px solid var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
-  box-shadow: var(--box-shadow);
+}
+
+.nav-menu .nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: var(--font-medium);
+  margin-right: 2rem;
+}
+
+.offcanvas {
+  max-width: 25% !important;
+}
+
+.nav-menu .nav-item:hover {
+  color: var(--secondary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-toggler {
+    display: block !important;
+  }
+
+  .nav-menu .nav-item {
+    display: none;
+  }
 }
