@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import TechStack from './components/TechStack';
 import Contact from './components/Contact';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
 
@@ -14,12 +15,16 @@ function App() {
 
   return (
     <div onContextMenu={context} className="container-fluid">
-      <Navigation />
-      <Hero />
-      <About />
-      <Projects />
-      <TechStack />
-      <Contact />
+      <BrowserRouter>
+        <Navigation />
+        <Switch>
+          <Route path="/" element={Hero} exact> <Hero /> </Route>
+          <Route path="/about" element={About} exact> <About /> </Route>
+          <Route path="/projects" element={Projects} exact><Projects /> </Route>
+          <Route path="/TechStack" element={TechStack} exact><TechStack /> </Route>
+          <Route path="/contact" element={Contact} exact> <Contact /> </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

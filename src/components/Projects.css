@@ -1,8 +1,14 @@
 .projects {
-  margin: 8rem auto 4rem auto;
+  margin: 5rem 2rem 4rem 0;
   width: 100%;
   height: fit-content;
   overflow-x: hidden;
   background-color: rgba(216, 191, 216, 0.15);
   border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    margin-top: 8rem;
+  }
 }
