@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Fade from "react-reveal/Fade";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 
 const About = () => {
   return (
@@ -42,14 +42,14 @@ const About = () => {
               experience.
             </p>
             <div className="about__buttons">
-              <Link
-                to="https://docs.google.com/document/d/10Z0Y59fgKVJlGQwTSkbiqw6Gezem4IileHQIYjDzSVM/edit?usp=sharing"
+              <a
+                href="https://docs.google.com/document/d/10Z0Y59fgKVJlGQwTSkbiqw6Gezem4IileHQIYjDzSVM/edit?usp=sharing"
                 className="btn"
                 download
                 target="_blank"
               >
                 Download CV
-              </Link>
+              </a>
             </div>
           </div>
         </Fade>

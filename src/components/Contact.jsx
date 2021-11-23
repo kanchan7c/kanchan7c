@@ -4,7 +4,6 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -18,42 +17,42 @@ const Contact = () => {
             </div>
             <div className="col-lg-5 offest-1 contact-content">
               <h3>Follow me</h3>
-              <div className="social-links">
-                <Link
+              <div className="social-as">
+                <a
                   key="fb"
-                  to="https://www.facebook.com/profile.php?id=100010316479068"
+                  href="https://www.facebook.com/profile.php?id=100010316479068"
                   className="social"
                   target="_blank"
                 >
                   <FacebookIcon />
-                </Link>
-                <Link
+                </a>
+                <a
                   key="twitter"
-                  to="https://twitter.com/KanchanSamajS"
+                  href="https://twitter.com/KanchanSamajS"
                   className="social"
                   target="_blank"
                 >
                   <TwitterIcon />
-                </Link>
-                <Link
+                </a>
+                <a
                   key="github"
-                  to="https://github.com/kanchan7c"
+                  href="https://github.com/kanchan7c"
                   className="social"
                   target="_blank"
                 >
                   <GitHubIcon />
-                </Link>
-                <Link
+                </a>
+                <a
                   key="linkedin"
-                  to="https://www.linkedin.com/in/kanchan-chaudhary-a38568bb/"
+                  href="https://www.linkedin.com/in/kanchan-chaudhary-a38568bb/"
                   className="social"
                   target="_blank"
                 >
                   <LinkedInIcon />
-                </Link>
+                </a>
               </div>
-              <Link
-                to="mailto:kanchan.chaudhary77@gmail.com"
+              <a
+                href="mailto:kanchan.chaudhary77@gmail.com"
                 className="btn"
                 onClick={() =>
                   alert("Hi! Thank you for showing your interest.")
@@ -62,7 +61,7 @@ const Contact = () => {
                 key="message"
               >
                 Send Message
-              </Link>
+              </a>
             </div>
           </div>
         </div>

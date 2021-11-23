@@ -1,14 +1,13 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 
 const Navigation = () => {
   return (
     <nav className="navbar navbar-dark bg-dark fixed-top">
       <div className="container-fluid">
-        <NavLink className="navbar-brand" key="logo" to="/">
+        <a className="navbar-brand" key="logo" href="#">
           iPort<span>folio</span>
-        </NavLink>
+        </a>
       </div>
     </nav>
   );

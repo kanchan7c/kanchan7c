@@ -1,0 +1,9 @@
+.app::-webkit-scrollbar {
+  width: 0 !important;
+}
+.app {
+  overflow: -moz-scrollbars-none;
+}
+.app {
+  -ms-overflow-style: none;
+}
