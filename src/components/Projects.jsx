@@ -17,6 +17,8 @@ const Projects = () => {
             created={item.created}
             github={item.github}
             online={item?.online}
+            role={item.role}
+            tech={item.tech}
           />
         ))}
     </div>
