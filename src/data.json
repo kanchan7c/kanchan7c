@@ -113,7 +113,7 @@
     "src": "./images/real-estate.png",
     "alt": "Real Estate",
     "title": "Real Estate Website Sample",
-    "description": "This is <strong>my first website</strong> that I have coded since I started learning web development.This is a Real Estate website sample inspired by one of the templates. As I was learning web development since 10 days back then, this website doesn't use media queries, therefore, For the BEST view, please check the website on a desktop browser as I haven't optimized it to be responsive for small screens yet.",
+    "description": "This is my first website that I have coded since I started learning web development.This is a Real Estate website sample inspired by one of the templates. As I was learning web development since 10 days back then, this website doesn't use media queries, therefore, For the BEST view, please check the website on a desktop browser as I haven't optimized it to be responsive for small screens yet.",
     "created": "Sept 24, 2021",
     "tech": "HTML and CSS",
     "role": "Frontend",

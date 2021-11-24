@@ -45,6 +45,10 @@ const itemData = [
     img: "./images/django.png",
     title: "Django",
   },
+  {
+    img: "./images/sass.png",
+    title: "SASS",
+  },
 ];
 
 const TechStack = () => {
@@ -62,7 +66,7 @@ const TechStack = () => {
                 marginBottom: "3rem",
               }}
             >
-              <ImageList variant="masonry" cols={5} gap={4}>
+              <ImageList variant="masonry" cols={6} gap={4}>
                 {itemData.map((item) => (
                   <ImageListItem key={item.img}>
                     <img
