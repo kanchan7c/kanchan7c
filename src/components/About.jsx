@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import Fade from "react-reveal/Fade";
-import { a } from "react-router-dom";
 
 const About = () => {
   return (
@@ -47,6 +46,7 @@ const About = () => {
                 className="btn"
                 download
                 target="_blank"
+                rel="noreferrer"
               >
                 Download CV
               </a>

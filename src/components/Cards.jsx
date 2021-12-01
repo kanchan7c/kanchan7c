@@ -39,6 +39,7 @@ const Cards = ({
                   href={online}
                   class="btn d-lg-inline-block"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   View Online
                 </a>
@@ -50,6 +51,7 @@ const Cards = ({
                 href={github}
                 class="btn d-lg-inline-block"
                 target="_blank"
+                rel="noreferrer"
               >
                 View Code
               </a>
